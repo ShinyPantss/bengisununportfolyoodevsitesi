@@ -16,7 +16,7 @@ export const PROJECTS: Project[] = [
     tags: ["Assignment", "Architecture", "Design Study"],
     year: "2025",
     role: "Student",
-    tools: ["Hand Drawing", "SketchUp", "Photoshop"],
+    tools: ["Photoshop"],
     location: "Assignment 1"
   },
   {
@@ -33,7 +33,7 @@ export const PROJECTS: Project[] = [
     tags: ["Assignment", "Design", "Workset", "Moodboard"],
     year: "2025",
     role: "Student",
-    tools: ["AutoCAD", "Hand Drawing", "InDesign"],
+    tools: ["Canva", "Nano Banana Pro"],
     location: "Assignment 2"
   },
   {
@@ -47,7 +47,7 @@ export const PROJECTS: Project[] = [
     tags: ["Assignment", "Design", "AI", "Visualization"],
     year: "2025",
     role: "Student",
-    tools: ["Hand Drawing", "SketchUp", "Photoshop"],
+    tools: ["Canva", "ChatGPT", "Nano Banana Pro"],
     location: "Assignment 3"
   },
   {
@@ -61,7 +61,7 @@ export const PROJECTS: Project[] = [
     tags: ["Assignment", "Video", "Motion"],
     year: "2026",
     role: "Student",
-    tools: ["Video", "Editing"],
+    tools: ["CapCut"],
     location: "Assignment 4"
   },
 
@@ -76,7 +76,7 @@ export const PROJECTS: Project[] = [
     tags: ["Homework", "Spatial Design", "Composition"],
     year: "2025",
     role: "Student",
-    tools: ["SketchUp", "Photoshop"],
+    tools: ["ProCreate", "Photoshop"],
     location: "Homework 1"
   },
   {
@@ -89,12 +89,12 @@ export const PROJECTS: Project[] = [
     tags: ["Homework", "Design", "Menu"],
     year: "2025",
     role: "Student",
-    tools: ["Rhino", "V-Ray", "Illustrator"],
+    tools: ["canva", "Photoshop"],
     location: "Homework 2"
   },
   {
     id: "homework-3",
-    title: "Wood chip finish Material Board",
+    title: "Wood Chip Finish Material Board",
     category: ProjectCategory.HOMEWORK,
     coverImage: img("images/homework", "homework3.jpg"),
     galleryImages: [],
@@ -102,7 +102,7 @@ export const PROJECTS: Project[] = [
     tags: ["Homework", "Design", "Material Board"],
     year: "2025",
     role: "Student",
-    tools: ["AutoCAD", "SketchUp", "Photoshop"],
+    tools: ["Canva", "Photoshop"],
     location: "Homework 3"
   },
 
@@ -117,7 +117,7 @@ export const PROJECTS: Project[] = [
     tags: ["Studio", "Collage", "Atmosphere", "Romantic", "Cafe", "Handmade"],
     year: "2025",
     role: "Designer",
-    tools: ["Rhino", "V-Ray", "Photoshop"],
+    tools: ["Hand Drawing"],
     location: "Studio Work 1"
   },
   {
@@ -130,7 +130,7 @@ export const PROJECTS: Project[] = [
     tags: ["Studio", "Narrative", "Film", "Atmosphere", "Collage", "Spatial Design"],
     year: "2025",
     role: "Designer",
-    tools: ["Rhino", "Grasshopper", "Photoshop"],
+    tools: ["Photoshop"],
     location: "Studio Work 2"
   },
   {
@@ -143,7 +143,7 @@ export const PROJECTS: Project[] = [
     tags: ["Studio", "Modular", "Urban"],
     year: "2025",
     role: "Designer",
-    tools: ["SketchUp", "AutoCAD", "Illustrator"],
+    tools: [ "Photoshop"],
     location: "Studio Work 3"
   },
   {
@@ -156,7 +156,7 @@ export const PROJECTS: Project[] = [
     tags: ["Studio", "Design", "Mood Board"],
     year: "2025",
     role: "Designer",
-    tools: ["Rhino", "V-Ray", "Photoshop"],
+    tools: ["Canva", "Photoshop" ,"Gemini"],
     location: "Studio Work 4"
   },
   {
@@ -169,7 +169,7 @@ export const PROJECTS: Project[] = [
     tags: ["Studio", "Design", "Material Board"],
     year: "2025",
     role: "Designer",
-    tools: ["Rhino", "Illustrator", "InDesign"],
+    tools: ["Canva", "Photoshop" ,"Gemini"],
     location: "Studio Work 5"
   },
   {
@@ -182,7 +182,7 @@ export const PROJECTS: Project[] = [
     tags: ["Studio", "Design", "Menu"],
     year: "2025",
     role: "Designer",
-    tools: ["Rhino", "Grasshopper", "Climate Studio"],
+    tools: ["Canva" ,"Gemini"],
     location: "Studio Work 6"
   },
   {
@@ -195,7 +195,7 @@ export const PROJECTS: Project[] = [
     tags: ["Studio", "Design", "Workset", "Moodboard"],
     year: "2025",
     role: "Designer",
-    tools: ["Rhino", "V-Ray", "Photoshop", "InDesign"],
+    tools: ["Photoshop" ,"Gemini"],
     location: "Studio Work 7"
   }
 ];
