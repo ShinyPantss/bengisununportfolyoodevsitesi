@@ -139,7 +139,7 @@ const ProjectDetail: React.FC = () => {
         <section className="px-6 lg:px-12 py-20 bg-white">
           <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16">
             <div className="lg:col-span-5">
-              <h2 className="text-3xl font-serif mb-8 italic">Project Philosophy</h2>
+              <h2 className="text-3xl font-serif mb-8 italic">Project Description</h2>
               <p className="text-lg leading-relaxed text-muted-foreground mb-8">
                 {project.description}
               </p>

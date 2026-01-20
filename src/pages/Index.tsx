@@ -53,7 +53,9 @@ const Index: React.FC = () => {
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <a 
-                    href="#projects" 
+                    href="/porfolyo.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="luxury-button flex items-center gap-2 group"
                   >
                     View Portfolio

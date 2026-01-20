@@ -114,8 +114,7 @@ export const PROJECTS: Project[] = [
     coverImage: img("images/studiowork", "studiowork1.jpg"),
     galleryImages: [],
     description: "Bu hand-made kolajda, romantik atmosferi vurgulamak amacıyla pembe ve yeşil renkler birlikte kullanılmıştır. Pembe, sevgi ve sıcaklık hissini temsil ederken; yeşil, doğallık ve huzur duygusunu destekleyerek mekânın samimi karakterini güçlendirmektedir. Romantik hissiyatı pekiştirmek için kullanıcı figürleri bilinçli olarak çiftlerden seçilmiş, café mekânı paylaşım ve duygusal bağ kurma eylemleriyle ilişkilendirilmiştir.",
-
-    tags: ["Studio", "Light", "Materiality"],
+    tags: ["Studio", "Collage", "Atmosphere", "Romantic", "Cafe", "Handmade"],
     year: "2025",
     role: "Designer",
     tools: ["Rhino", "V-Ray", "Photoshop"],
@@ -128,7 +127,7 @@ export const PROJECTS: Project[] = [
     coverImage: img("images/studiowork", "studiowork2.jpeg"),
     galleryImages: [],
     description: "Sevmek Zamanı filmine ait bu kolaj çalışmasında, filmin en güçlü ve simgesel ögesi olan kadın portresi, mekânın karşı aksına yerleştirilerek iç mekân kurgusunun odak noktası hâline getirilmiştir. Filmden alınan sahneler ve karakterler kullanılarak, anlatıyı mekânsal bir dile dönüştüren bir iç mekân kompozisyonu oluşturulmuştur. Kolajda yer alan figürler, filmdeki rolleriyle birebir ilişkilendirilmiş; örneğin saz çalan karakter, mekân içerisinde saz çalma eylemiyle temsil edilmiştir. Bu çalışma, filmin duygusal atmosferini ve anlatı dilini iç mekân üzerinden yeniden yorumlamayı amaçlamaktadır.",
-    tags: ["Studio", "Form", "Landscape"],
+    tags: ["Studio", "Narrative", "Film", "Atmosphere", "Collage", "Spatial Design"],
     year: "2025",
     role: "Designer",
     tools: ["Rhino", "Grasshopper", "Photoshop"],
