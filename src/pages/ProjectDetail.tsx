@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useLayoutEffect, useRef, useCallback } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Header } from '@/components/Header';
@@ -13,6 +13,7 @@ import { ArrowLeft, ArrowRight, MapPin, Calendar, Briefcase, Box } from 'lucide-
 const ProjectDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const [lightbox, setLightbox] = useState({ isOpen: false, index: 0 });
+  const videosContainerRef = useRef<HTMLDivElement>(null);
 
   const projectIndex = PROJECTS.findIndex((p) => p.id === id);
   const project = PROJECTS[projectIndex];
@@ -20,6 +21,25 @@ const ProjectDetail: React.FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [id]);
+
+  // Ensure no video autoplays on mount; pause all when entering the page or switching project (useLayoutEffect runs before paint)
+  useLayoutEffect(() => {
+    const el = videosContainerRef.current;
+    if (!el) return;
+    const videos = el.querySelectorAll<HTMLVideoElement>('video');
+    videos.forEach((v) => {
+      v.pause();
+    });
+  }, [id, project?.videos]);
+
+  // When one video plays, pause all others (avoids decoder contention, ensures the playing one runs)
+  const handleVideoPlay = useCallback((current: HTMLVideoElement) => {
+    const el = videosContainerRef.current;
+    if (!el) return;
+    el.querySelectorAll<HTMLVideoElement>('video').forEach((v) => {
+      if (v !== current) v.pause();
+    });
+  }, []);
 
   if (!project) {
     return (
@@ -130,7 +150,7 @@ const ProjectDetail: React.FC = () => {
 
             <div className="lg:col-span-7 space-y-10">
               {project.videos && project.videos.length > 0 && (
-                <div className="space-y-6">
+                <div ref={videosContainerRef} className="space-y-6">
                   {project.videos.map((url, idx) => (
                     <motion.div
                       key={`video-${idx}`}
@@ -146,6 +166,7 @@ const ProjectDetail: React.FC = () => {
                         playsInline
                         preload="metadata"
                         className="w-full aspect-video object-contain bg-muted"
+                        onPlay={(e) => handleVideoPlay(e.currentTarget)}
                       >
                         Your browser does not support the video tag.
                       </video>
