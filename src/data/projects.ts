@@ -38,17 +38,17 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "assignment-3",
-    title: "Assignment 3",
+    title: "AI Tool Visualation",
     category: ProjectCategory.ASSIGNMENT,
     coverImage: img("images/assigment", "assigment3.1.jpg"),
     galleryImages: [img("images/assigment", "asssigment3.2.jpg")],
     videos: [vid("assigment3.mp4")],
-    description: "Architectural assignment exploring spatial design, form, and representation through drawings and visual studies.",
-    tags: ["Assignment", "Spatial Design", "Representation"],
+    description: "Bu bölümde, yapay zekayı bir görselleştirme ve render motoru olarak kullanarak tasarım sürecimi hızlandırdım. Üst kısımda; çizgisel bir eskizin mimari bir yapıya dönüşümünü, alt kısımda ise 'ÇEKÜL' projesine ait ham cephe modelinin (facade model), doku ve atmosfer eklenerek mekansal bir kimlik kazanmasını görselleştirdim.",
+    tags: ["Assignment", "Design", "AI", "Visualization"],
     year: "2025",
     role: "Student",
     tools: ["Hand Drawing", "SketchUp", "Photoshop"],
-    location: "Architecture Studio"
+    location: "Assignment 3"
   },
   {
     id: "assignment-4",

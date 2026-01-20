@@ -60,7 +60,7 @@ const Index: React.FC = () => {
                     <ChevronRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
                   </a>
                   <a 
-                    href="mailto:hello@bengisu.com"
+                    href="mailto:icmimar@bengisugokalp@gmail.com"
                     className="px-8 py-3 border border-transparent text-primary hover:text-muted-foreground transition-colors underline underline-offset-8"
                   >
                     Get in touch
