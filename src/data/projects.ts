@@ -52,17 +52,17 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "assignment-4",
-    title: "Assignment 4",
+    title: "Video Editing",
     category: ProjectCategory.ASSIGNMENT,
     coverImage: vid("assigment4.2.mp4"),
     galleryImages: [],
     videos: [vid("assigment4.1.mp4"), vid("assigment4.2.mp4")],
-    description: "Video-based assignment exploring motion, sequence, and narrative through moving image.",
+    description: "Dijital içerik üretimi kapsamında, akademik ve profesyonel deneyimlerimi video formatında kurguladım. İlk çalışmamda, İç Mimarlık Fakültesi'nin eğitim sürecini yansıtan bir video hazırlarken; diğer çalışmamda Japonya'da tasarladığım Student Hub projesinin konsept ve uygulama detaylarını anlatan bir proje videosu ürettim. Her iki video ya da  QR kodları taratarak erişebilirsiniz.",
     tags: ["Assignment", "Video", "Motion"],
     year: "2026",
     role: "Student",
     tools: ["Video", "Editing"],
-    location: "Architecture Studio"
+    location: "Assignment 4"
   },
 
   // ——— Homework ———
