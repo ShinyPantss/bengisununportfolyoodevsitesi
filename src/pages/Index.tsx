@@ -48,9 +48,7 @@ const Index: React.FC = () => {
                 <h1 className="text-6xl md:text-8xl lg:text-9xl font-serif mb-8 leading-[0.9] text-foreground">
                   Bengisu<br />Gokalp
                 </h1>
-                <p className="max-w-md text-lg md:text-xl text-muted-foreground mb-10 leading-relaxed">
-                  Creating poetic spaces through a meticulous balance of light, materiality, and minimalist form. Based in Berlin, working globally.
-                </p>
+               
                 <div className="flex flex-wrap gap-4">
                   <a 
                     href="/porfolyo.pdf"
