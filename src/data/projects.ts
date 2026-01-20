@@ -43,7 +43,7 @@ export const PROJECTS: Project[] = [
     coverImage: img("images/assigment", "assigment3.1.jpg"),
     galleryImages: [img("images/assigment", "asssigment3.2.jpg")],
     videos: [vid("assigment3.mp4")],
-    description: "Bu bölümde, yapay zekayı bir görselleştirme ve render motoru olarak kullanarak tasarım sürecimi hızlandırdım. Üst kısımda; çizgisel bir eskizin mimari bir yapıya dönüşümünü, alt kısımda ise 'ÇEKÜL' projesine ait ham cephe modelinin (facade model), doku ve atmosfer eklenerek mekansal bir kimlik kazanmasını görselleştirdim.",
+    description: "Bu bölümde, yapay zekayı bir görselleştirme ve render motoru olarak kullanarak tasarım sürecimi hızlandırdım. Üst kısımda; çizgisel bir eskizin mimari bir yapıya dönüşümünü, alt kısımda ise 'ÇEKÜL' projesine ait ham cephe modelinin (facade model), doku ve atmosfer eklenerek mekansal bir kimlik kazanmasını görselleştirdim. Tasarımın iç mekan kurgusunu, ham 3D modellerden (interior models) yapay zeka destekli fotorealistik renderlara dönüştürdüm. Görselleştirme sürecini statik karelerle sınırlı tutmayıp, bu verileri AI video render teknolojisiyle işleyerek mekanı hareketli bir deneyime evrilttim. Hazırladığım bu dinamik atmosfer videosuna aşağıdaki QR kod üzerinden ulaşabilirsiniz.",
     tags: ["Assignment", "Design", "AI", "Visualization"],
     year: "2025",
     role: "Student",
