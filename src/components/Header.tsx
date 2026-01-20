@@ -47,7 +47,7 @@ export const Header: React.FC = () => {
             Bengisu Gokalp
           </span>
           <span className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground group-hover:text-primary transition-colors">
-            Architectural Portfolio
+            Design Portfolio
           </span>
         </Link>
 
